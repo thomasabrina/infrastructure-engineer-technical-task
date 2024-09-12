@@ -51,10 +51,10 @@ Other configuration can be decided by yourself, based on the instance being used
 ## Questions
 
  1. How long did you spend on this assessment in total?\
- _
+ _Approximately 2 hours, including research and implementation._
 
  2. What was the most difficult task?\
- _
+ _The most challenging task was setting up the CI/CD pipeline with Argo Workflows, as it required a deep understanding of both Kubernetes and the specific configurations needed for deployment._
 
  3. If you had an unlimited amount of time to complete this task, what would you have done differently?\
- _
+ _I would have implemented more comprehensive testing for the application and the CI/CD pipeline, as well as explored additional security measures for the infrastructure._
