@@ -21,3 +21,6 @@ EXPOSE 3000
 
 # Command to run the application
 CMD ["node", "build/index.js"]
+
+# Health check
+HEALTHCHECK CMD curl --fail http://localhost:3000/health || exit 1

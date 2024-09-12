@@ -19,3 +19,6 @@ spec:
                   image: europe-north1-docker.pkg.dev/sisu-tech/docker-registry/express:latest
                   ports:
                       - containerPort: 3000
+                  env:  # Environment variables section
+                    - name: NODE_ENV
+                      value: "production"

@@ -3,10 +3,13 @@ apiVersion: v1
 metadata:
   name: express
 spec:
+  type: LoadBalancer
   selector:
     app: express
   ports:
-  - protocol: TCP
-       port : 80
-       targetPort : 3000
-    type : LoadBalancer
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+      # Annotations for service
+      annotations:
+        service.beta.kubernetes.io/aws-load-balancer-type: "nlb"  # Example for AWS NLB
